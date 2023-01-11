@@ -63,8 +63,8 @@ p {
 
 /* Navbar */
 nav {
-  background: #fff;
-  box-shadow: 0 1px 6px rgb(169 188 218 / 65%);
+  background: var(--color-secondary);
+  box-shadow: 0 1px 6px rgb(251 220 0 / 65%);
   position: fixed;
   top: 0;
   left: 0;
@@ -140,7 +140,6 @@ nav {
   position: relative;
   width: 100%;
   padding-top: 57px;
-  margin-top: 57px;
   background: url(https://cdn.cogoport.io/cms-prod/vault/original/home-banner-background-1.webp);
   background-color: var(--color-secondary);
   background-repeat: no-repeat;
