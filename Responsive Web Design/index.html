@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Task</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <aside class="col-3 d-none d-lg-block">
+                <div class="row">
+                    <div class="col-xl-2 col-md-2 content d-flex flex-column justify-content-between align-items-center">
+                        <div class="nav d-flex flex-column">
+                            <img src="./images/Logomark.png" alt="Logo" class="logo">
+                            <img src="./images/nav_home.png" alt="home">
+                            <img src="./images/nav_bell.png" alt="bell">
+                            <img src="./images/nav_boxes.png" alt="boxes">
+                            <img src="./images/nav_tick.png" alt="tick">
+                            <img src="./images/nav_pie.png" alt="pie">
+                            <img src="./images/nav_profile.png" alt="profile">
+                        </div>
+                        <div class="footer d-flex flex-column">
+                            <img src="./images/nav_tyre.png" alt="tyre">
+                            <img src="./images/nav_settings.png" alt="settings">
+                            <img src="./images/nav_avatar.png" alt="avatar">
+                        </div>
+                    </div>
+                    <div class="col sub-nav d-flex flex-column justify-content-between">
+                        <div class="settings">
+                            <div class="head">Settings</div>
+                            <div class="item"><img src="./images/settings_flag.png" alt="flag">My details</div>
+                            <div class="item profile"><img src="./images/settings_profile.png" alt="profile">Profile<span>10</span></div>
+                            <div class="item"><img src="./images/settings_password.png" alt="password">Password</div>
+                            <div class="item"><img src="./images/settings_team.png" alt="team">Team</div>
+                            <div class="item"><img src="./images/settings_billing.png" alt="billing">Billing</div>
+                            <div class="item"><img src="./images/settings_notifications.png" alt="notifications">Notifications</div>
+                            <div class="item"><img src="./images/settings_integrations.png" alt="integrations">Integrations</div>
+                        </div>
+                        <div class="account">
+                            <!-- <div class="col"> -->
+                                <div class="username">Olivia Rhye</div>
+                                <div class="email">olivia@untitledui.com</div>
+                            <!-- </div> -->
+                            <img src="./images/account_logout.png" alt="logout">
+                        </div>
+                    </div>
+                </div>
+            </aside>
+            <div id="topbar" class="d-flex justify-content-between align-items-center d-lg-none">
+                <img src="./images/Logo.png" alt="Logo">
+                <img src="./images/topbar_apps.png" alt="apps">
+            </div>
+            <main class="col-12 col-lg-9 offset-lg-3 g-0">
+                <div id="header-bg"></div>
+                <!-- <div class="row"> -->
+                <div class="d-flex flex-lg-row flex-column" id="avatar-and-button">
+                    <img src="./images/Avatar profile photo.png" alt="user avatar" id="user-avatar">
+                    <div class="d-flex justify-content-between flex-lg-row flex-column" id="username-and-button">
+                        <div>
+                            <div class="username">Olivia Rhye</div>
+                            <div class="email">olivia@untitledui.com</div>
+                        </div>
+                        <div class="buttons">
+                            <button class="white-button"><img src="./images/button_share.png" class="share" alt="share">Share</button>
+                            <button class="blue-button">View profile</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- </div> -->
+                <hr>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-4 col-12">
+                            <div class="form-h1">Personal info</div>
+                            <div class="form-h2">Update your photo and personal details</div>
+                        </div>
+                        <div class="col-lg-8 col-12">
+                            <form>
+                                <div class="content">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-12">
+                                            <label for="firstname">First name</label>
+                                            <input type="text" id="firstname" placeholder="Olivia">
+                                        </div>
+                                        <div class="col-lg-6 col-12">
+                                            <label for="lastname">Last name</label>
+                                            <input type="text" id="lastname" placeholder="Rhye">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <label for="email">Email address</label>
+                                            <div class="input-group">
+                                                <span class="input-group-text" id="mail-logo"><img src="./images/mail_icon.png" alt="mail-logo"></span>
+                                                <input type="text" class="form-control" id="basic-url" aria-describedby="mail-logo" placeholder="olivia@untitledui.com">
+                                              </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mt-4">
+                                        <div class="col" id="form-pic"><img src="./images/nav_avatar.png" alt="profile"></div>
+                                        <div class="col d-flex flex-column justify-content-center align-items-center" id="upload">
+                                            <img src="./images/upload_icon.png" alt="upload">
+                                            <div class="drag-or-drop"><span>Click to upload </span>or drag and drop</div>
+                                            <div class="options">SVG, PNG, JPG or GIF (max. 800x400px)</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-4 col-12">
+                            <div class="form-h1">Profile</div>
+                            <div class="form-h2">Update your profile and bio</div>
+                        </div>
+                        <div class="col-lg-8 col-12">
+                            <form>
+                                <div class="content">
+                                    <div class="d-flex flex-row project-container">
+                                        <div id="toggle"><button></button></div>
+                                        <div>
+                                            <div class="projects-h1">Available for projects</div>
+                                            <div class="projects-h2">I'm open and available for freelance work</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 mt-4">
+                                        <label for="username" class="form-label">Username</label>
+                                        <div class="input-group">
+                                            <span class="input-group-text" id="username-label">untitledui.com/</span>
+                                            <input type="text" class="form-control" id="username" aria-describedby="username-label" placeholder="olivia">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 mt-4">
+                                        <label for="username" class="form-label">Website</label>
+                                        <div class="input-group">
+                                            <span class="input-group-text" id="website-label">http://</span>
+                                            <input type="text" class="form-control" id="website" aria-describedby="website-label" placeholder="www.untitledui.com">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 mt-4">
+                                        <label for="description" class="form-label">Description</label>
+                                        <div class="input-group">
+                                            <textarea class="form-control" id="description" placeholder= "I'm a Product Designer based in Melbourne, Australia. I specialise in UI/UX design, brand strategy and Webflow development"></textarea>
+                                        </div>
+                                        <div class="form-text">275 characters left</div>
+                                    </div>
+                                    <div class="col-12 mt-1 d-flex">
+                                        <select class="form-select mr-2" aria-label="font-style">
+                                            <option selected>Regular</option>
+                                            <option>Bold</option>
+                                            <option>Italic</option>
+                                            <option>Underline</option>
+                                        </select>
+                                        <img class="font-formatting-icon" src="./images/bold_icon.png" alt="bold_icon">
+                                        <img class="font-formatting-icon" src="./images/italics_icon.png" alt="italics_icon">
+                                        <img class="font-formatting-icon" src="./images/attach_icon.png" alt="attach_icon">
+                                        <img class="font-formatting-icon" src="./images/bullet_icon.png" alt="bullet_icon">
+                                        <img class="font-formatting-icon" src="./images/list_icon.png" alt="list_icon">
+                                    </div>
+                                    <div class="col-12 mt-4">
+                                        <label for="country">Country</label>
+                                        <select class="form-select full-width" aria-label="country">
+                                            <option selected>&#127462;&#127482; Australia</option>
+                                            <option>&#127470;&#127475; India</option>
+                                            <option>&#127477;&#127472; Pakistan</option>
+                                            <option>&#127464;&#127475; China</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12 mt-4">
+                                        <label for="timezone">Timezone</label>
+                                        <select class="form-select full-width" aria-label="timezone">
+                                            <option selected>&#x1F557;  PST UTC-08:00</option>
+                                        </select>
+                                    </div>
+                                    <div class="d-flex justify-content-end footer">
+                                        <button class="white-button">Cancel</button>
+                                        <button class="blue-button">Save changes</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,342 @@
+* {
+    box-sizing: border-box;
+}
+aside {
+    position: fixed;
+    height: 100vh;
+    border-right: 1px solid #EAECF0
+}
+aside .content {
+    padding: 32px 0 24px 0;
+    height: 100vh;
+    min-width: 56px;
+    border-right: 1px solid #EAECF0
+}
+aside .nav .logo {
+    width: 32px;
+    height: 32px;
+    margin: 0 0 20px 8px;
+}
+aside .nav img ,aside .footer img {
+    height: 48px;
+    width: 48px;
+}
+aside .settings {
+    padding: 36px 0.06% 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344054;
+}
+aside .settings>.head {
+    color: black;
+    font-weight: 500;
+}
+aside .settings>.item {
+    margin: 8px 0 8px 12px;
+    height: 24px;
+}
+aside .settings>.item>img {
+    margin-right: 12px;
+    height: 24px;
+    width: 24px;
+}
+aside .settings > .profile {
+    position: relative;
+}
+aside .settings > .item > span {
+    padding: 2px 8px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+
+    text-align: center;
+
+    background: #F2F4F7;
+    mix-blend-mode: multiply;
+    border-radius: 16px;
+    position: absolute;
+    right: 0px;
+}
+aside .account {
+    margin-bottom: 24px;
+    position: relative;
+}
+aside .account .username {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #101828;
+}
+aside .account .email {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #475467;
+}
+aside .account img {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    right: 12px;
+    top: -8px;
+}
+#topbar {
+    padding: 0 8px 0 16px;
+    height: 64px;
+}
+#header-bg {
+    height: 240px;
+    background: url("./images/header-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#avatar-and-button {
+    margin: 0 2.97% 25px;
+}
+#user-avatar {
+    /* height: 160px; */
+    min-width: 100px;
+    width: 14.8%;
+    position: relative;
+    bottom: 30px;
+}
+#username-and-button {
+    width: 85.2%;
+    margin-top: 15px;
+}
+@media (max-width: 991px) {
+    #username-and-button {
+        position: relative;
+        bottom: 40px;
+    }
+}
+#username-and-button .share{
+    height: 20px;
+    width: 20px;
+    margin: 2px;
+    position: relative;
+    bottom: 25%;
+}
+main .username {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 38px;
+    color: #101828;
+}
+main .email {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #475467;
+}
+@media (max-width: 991px) {
+    main .username {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    main .email {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .buttons {
+        margin-top: 16px;
+    }
+}
+.white-button {
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    padding: 10px 16px;
+    height: 40px;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #344054;
+}
+.blue-button {
+    background: #7F56D9;
+    border: 1px solid #7F56D9;
+    padding: 10px 16px;
+    height: 40px;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: white;
+}
+hr {
+    width: 94.06%;
+    height: 1px;
+    background: #EAECF0;
+    margin: 20px auto ;
+}
+form {
+    /* width: 702px;
+    height: 435px; */
+    width: 95%;
+    border: 1px solid #EAECF0;
+    box-shadow: 0px 1px 3px rgba(16, 24, 40, 0.1), 0px 1px 2px rgba(16, 24, 40, 0.06);
+    border-radius: 12px;
+    margin-bottom: 24px;
+}
+form>.content {
+    padding: 24px 3.20%;
+}
+.form-h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #344054;
+}
+.form-h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #475467;
+}
+label {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #344054;
+}
+input {
+    padding: 10px 14px;
+    width: 95%;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+}
+::placeholder {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #101828;
+    text-align: left;
+}
+#form-pic {
+    flex: 0 0 85px;
+}
+#form-pic > img {
+    width: 100%;
+    height: 64px;
+}
+#upload {
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    height: 126px;
+}
+#upload > img {
+    width: 40px;
+    height: 40px;
+}
+.drag-or-drop {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #475467;
+}
+.drag-or-drop span {
+    font-weight: 600;
+    color: #6941C6;
+}
+.options {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #475467;
+}
+.project-container #toggle {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2px;
+    width: 36px;
+    height: 20px;
+    background: #7F56D9;
+    border-radius: 12px;
+    position: relative;
+    top: 5px;
+    margin-right: 5px;
+}
+.project-container #toggle > button {
+    width: 16px;
+    height: 16px;
+    background: #FFFFFF;
+    border: 0px;
+    border-radius: 100%;
+}
+.projects-h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #344054;
+}
+.projects-h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #475467;
+}
+.input-group-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #475467;
+}
+#description {
+    height: 128px;
+}
+.form-select {
+    width: 34.19%;
+}
+.font-formatting-icon {
+    width: 32px;
+    height: 32px;
+}
+.full-width {
+    width: 100%;
+}
+.footer>button {
+    margin-top: 20px;
+    margin-right: 6px;
+}
